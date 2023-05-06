@@ -1,62 +1,877 @@
 {
-    "data": {
-        "id": 1,
-        "attributes": {
-            "title": "franko",
-            "price": 9.99,
-            "description": "opis je ovdje",
-            "text": "VELIKI OPUSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
-            "slug": "franko",
-            "createdAt": "2023-04-04T14:24:13.855Z",
-            "updatedAt": "2023-04-04T14:24:17.117Z",
-            "publishedAt": "2023-04-04T14:24:17.115Z",
-            "image": {
-                "data": {
-                    "id": 1,
-                    "attributes": {
-                        "name": "22.jpg",
-                        "alternativeText": null,
-                        "caption": null,
-                        "width": 512,
-                        "height": 512,
-                        "formats": {
-                            "thumbnail": {
-                                "name": "thumbnail_22.jpg",
-                                "hash": "thumbnail_22_8a933d55cd",
-                                "ext": ".jpg",
-                                "mime": "image/jpeg",
-                                "path": null,
-                                "width": 156,
-                                "height": 156,
-                                "size": 35.93,
-                                "url": "/uploads/thumbnail_22_8a933d55cd.jpg"
+    "data": [
+        {
+            "id": 5,
+            "attributes": {
+                "title": "BACK  TO BLACK  GEL",
+                "price": 10,
+                "description": "Gel za kosu",
+                "text": "Daje toniranu crnu boju s prirodnim izgledom te dugotrajno definira frizuru.\nNjegova tekuća konzistencija omogućuje lako nanošenje i oblikovanje. Tijekom nanošenja ne ostavlja tragove na vlasištu ili rukama.\nAktivni sastojci:\nCarbon black boji kosu bez neželjenog refleksa\nSun filter štiti kosu od UV zračenja\nInovativni cross polymer garantira dugotrajni i sjajni styling neviđen do sada\nPakiranje: 150 ml\n",
+                "slug": "back-to-black-gel",
+                "createdAt": "2023-04-11T14:47:57.826Z",
+                "updatedAt": "2023-04-12T23:30:39.765Z",
+                "publishedAt": "2023-04-11T14:48:00.271Z",
+                "pricehrk": 75,
+                "collectiontype": "hair",
+                "slug2": "hair-1",
+                "image": {
+                    "data": {
+                        "id": 5,
+                        "attributes": {
+                            "name": "backtoblack.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 800,
+                            "height": 800,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_backtoblack.png",
+                                    "hash": "thumbnail_backtoblack_8358d9f3a9",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 14.04,
+                                    "url": "/uploads/thumbnail_backtoblack_8358d9f3a9.png"
+                                },
+                                "small": {
+                                    "name": "small_backtoblack.png",
+                                    "hash": "small_backtoblack_8358d9f3a9",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 500,
+                                    "size": 89.11,
+                                    "url": "/uploads/small_backtoblack_8358d9f3a9.png"
+                                },
+                                "medium": {
+                                    "name": "medium_backtoblack.png",
+                                    "hash": "medium_backtoblack_8358d9f3a9",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 750,
+                                    "size": 180.64,
+                                    "url": "/uploads/medium_backtoblack_8358d9f3a9.png"
+                                }
                             },
-                            "small": {
-                                "name": "small_22.jpg",
-                                "hash": "small_22_8a933d55cd",
-                                "ext": ".jpg",
-                                "mime": "image/jpeg",
-                                "path": null,
-                                "width": 500,
-                                "height": 500,
-                                "size": 310.87,
-                                "url": "/uploads/small_22_8a933d55cd.jpg"
-                            }
-                        },
-                        "hash": "22_8a933d55cd",
-                        "ext": ".jpg",
-                        "mime": "image/jpeg",
-                        "size": 70.87,
-                        "url": "/uploads/22_8a933d55cd.jpg",
-                        "previewUrl": null,
-                        "provider": "local",
-                        "provider_metadata": null,
-                        "createdAt": "2023-04-03T22:57:05.700Z",
-                        "updatedAt": "2023-04-04T14:23:54.972Z"
+                            "hash": "backtoblack_8358d9f3a9",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 66.24,
+                            "url": "/uploads/backtoblack_8358d9f3a9.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T14:47:19.608Z",
+                            "updatedAt": "2023-04-11T14:47:19.608Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "attributes": {
+                "title": "ALL 15 IN ONE",
+                "price": 9.5,
+                "description": "Maska za kosu",
+                "text": "Svestrana maska u spreju bez ispiranja.\n15 odgovora koje je vaša kosa oduvijek trebala. Ovo je inovativni višenamjenski sprej za kosu, hranjiv i aktivan poput maske a praktičan i lagan poput spreja\nTretman za salonsku i kućnu upotrebu, za ravnu, kovrčavu,neposlušnu, obojenu i blajhanu kosu sa 15 prednosti.\nTrenutni rezultati odmah vidljivi.\nPakiranje: 150 ml\n",
+                "slug": "all-15-in-one",
+                "createdAt": "2023-04-11T14:49:24.493Z",
+                "updatedAt": "2023-04-12T23:20:20.126Z",
+                "publishedAt": "2023-04-11T14:49:25.984Z",
+                "pricehrk": 70,
+                "collectiontype": "hair",
+                "slug2": "hair",
+                "image": {
+                    "data": {
+                        "id": 6,
+                        "attributes": {
+                            "name": "all15.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 1024,
+                            "height": 685,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_all15.png",
+                                    "hash": "thumbnail_all15_5fe1b164a0",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 233,
+                                    "height": 156,
+                                    "size": 50.01,
+                                    "url": "/uploads/thumbnail_all15_5fe1b164a0.png"
+                                },
+                                "small": {
+                                    "name": "small_all15.png",
+                                    "hash": "small_all15_5fe1b164a0",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 334,
+                                    "size": 181.8,
+                                    "url": "/uploads/small_all15_5fe1b164a0.png"
+                                },
+                                "medium": {
+                                    "name": "medium_all15.png",
+                                    "hash": "medium_all15_5fe1b164a0",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 502,
+                                    "size": 367.54,
+                                    "url": "/uploads/medium_all15_5fe1b164a0.png"
+                                },
+                                "large": {
+                                    "name": "large_all15.png",
+                                    "hash": "large_all15_5fe1b164a0",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 1000,
+                                    "height": 669,
+                                    "size": 586.17,
+                                    "url": "/uploads/large_all15_5fe1b164a0.png"
+                                }
+                            },
+                            "hash": "all15_5fe1b164a0",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 136.24,
+                            "url": "/uploads/all15_5fe1b164a0.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T14:48:59.918Z",
+                            "updatedAt": "2023-04-11T14:48:59.918Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 7,
+            "attributes": {
+                "title": "COLOREVO",
+                "price": 8,
+                "description": "Boja za kosu",
+                "text": "Visoko profesionalni sustav trajnog bojanja, idealan za sve tipove kose. Colorevo boje jamče izvanredne boje, zdravu kosu, uzbudljive rezultate. Ovi rezultati su mogući uz vrhunsku ceramidnu tehnologiju CERAFLUX PLUS i COLOR DIFFUSION SYSTEM. Colorevo nudi vrlo personaliziran i prilagodljiv koncept boja. Više od 202 nijanse na usluzi frizerima. Dopustite da vas odnese u svijet svjetla, odraza i kreativnosti.",
+                "slug": "colorevo",
+                "createdAt": "2023-04-11T14:50:37.314Z",
+                "updatedAt": "2023-04-11T14:50:46.473Z",
+                "publishedAt": "2023-04-11T14:50:46.472Z",
+                "pricehrk": 60,
+                "collectiontype": null,
+                "slug2": null,
+                "image": {
+                    "data": {
+                        "id": 7,
+                        "attributes": {
+                            "name": "colorevo.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 1024,
+                            "height": 685,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_colorevo.png",
+                                    "hash": "thumbnail_colorevo_f18dba22f6",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 233,
+                                    "height": 156,
+                                    "size": 54.08,
+                                    "url": "/uploads/thumbnail_colorevo_f18dba22f6.png"
+                                },
+                                "small": {
+                                    "name": "small_colorevo.png",
+                                    "hash": "small_colorevo_f18dba22f6",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 334,
+                                    "size": 198.19,
+                                    "url": "/uploads/small_colorevo_f18dba22f6.png"
+                                },
+                                "medium": {
+                                    "name": "medium_colorevo.png",
+                                    "hash": "medium_colorevo_f18dba22f6",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 502,
+                                    "size": 402.62,
+                                    "url": "/uploads/medium_colorevo_f18dba22f6.png"
+                                },
+                                "large": {
+                                    "name": "large_colorevo.png",
+                                    "hash": "large_colorevo_f18dba22f6",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 1000,
+                                    "height": 669,
+                                    "size": 644.31,
+                                    "url": "/uploads/large_colorevo_f18dba22f6.png"
+                                }
+                            },
+                            "hash": "colorevo_f18dba22f6",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 151.97,
+                            "url": "/uploads/colorevo_f18dba22f6.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T14:50:15.147Z",
+                            "updatedAt": "2023-04-11T14:50:15.147Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 8,
+            "attributes": {
+                "title": "DECOLORVIT NOVA",
+                "price": 20,
+                "description": "Izbjeljivač za kosu",
+                "text": " Prašak za izbjeljivanje, s ekskluzivnom kompaktnom \"sigurnom salonskom formulom\", bez isparljivosti, idealan za ultraučinkovito djelovanje. Pomiješan isključivo s Decolorvit Active SSe postupno i ravnomjerno posvjetljuje do 9 nijansi. Obogaćen posebnim enzimima i meteoritnim prahom.\n \nPakiranje: 500gr\n",
+                "slug": "decolorvit-nova",
+                "createdAt": "2023-04-11T14:52:49.618Z",
+                "updatedAt": "2023-04-11T14:52:50.506Z",
+                "publishedAt": "2023-04-11T14:52:50.505Z",
+                "pricehrk": 150,
+                "collectiontype": null,
+                "slug2": null,
+                "image": {
+                    "data": {
+                        "id": 8,
+                        "attributes": {
+                            "name": "decolorvit.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 800,
+                            "height": 800,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_decolorvit.png",
+                                    "hash": "thumbnail_decolorvit_1033ba5b25",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 17.13,
+                                    "url": "/uploads/thumbnail_decolorvit_1033ba5b25.png"
+                                },
+                                "small": {
+                                    "name": "small_decolorvit.png",
+                                    "hash": "small_decolorvit_1033ba5b25",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 500,
+                                    "size": 131.31,
+                                    "url": "/uploads/small_decolorvit_1033ba5b25.png"
+                                },
+                                "medium": {
+                                    "name": "medium_decolorvit.png",
+                                    "hash": "medium_decolorvit_1033ba5b25",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 750,
+                                    "size": 280.48,
+                                    "url": "/uploads/medium_decolorvit_1033ba5b25.png"
+                                }
+                            },
+                            "hash": "decolorvit_1033ba5b25",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 77.38,
+                            "url": "/uploads/decolorvit_1033ba5b25.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T14:52:02.472Z",
+                            "updatedAt": "2023-04-11T14:52:02.472Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9,
+            "attributes": {
+                "title": "HYPER FIX GEL",
+                "price": null,
+                "description": "Gel za kosu",
+                "text": "Hiper jak fiksirajući tekući gel. Jednostavan za nanošenje i razmazivanje, posebno prikladan za usmjereno oblikovanje na kratkoj do srednjoj kosi. Održava kosu vlažnom i sjajnom. \nNe ostavlja tragove i vidljivo povećava sjaj, za dugotrajan mokar izgled.\nAktivni principi\nPRIRODNI GLICERIN: ostavlja kosu hidratiziranom i popunjenom\nRETIKULARNE SMOLE: daju izuzetno snažno i dugotrajno učvršćivanje, štite od vanjske vlage\nPANTENOL: jača vlakno kose\n",
+                "slug": "hyper-fix-gel",
+                "createdAt": "2023-04-11T17:23:05.869Z",
+                "updatedAt": "2023-04-11T17:23:57.667Z",
+                "publishedAt": "2023-04-11T17:23:10.110Z",
+                "pricehrk": null,
+                "collectiontype": null,
+                "slug2": null,
+                "image": {
+                    "data": {
+                        "id": 9,
+                        "attributes": {
+                            "name": "hyperfix.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 800,
+                            "height": 800,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_hyperfix.png",
+                                    "hash": "thumbnail_hyperfix_7b287246bd",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 13,
+                                    "url": "/uploads/thumbnail_hyperfix_7b287246bd.png"
+                                },
+                                "small": {
+                                    "name": "small_hyperfix.png",
+                                    "hash": "small_hyperfix_7b287246bd",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 500,
+                                    "size": 83.86,
+                                    "url": "/uploads/small_hyperfix_7b287246bd.png"
+                                },
+                                "medium": {
+                                    "name": "medium_hyperfix.png",
+                                    "hash": "medium_hyperfix_7b287246bd",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 750,
+                                    "size": 166.31,
+                                    "url": "/uploads/medium_hyperfix_7b287246bd.png"
+                                }
+                            },
+                            "hash": "hyperfix_7b287246bd",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 57.02,
+                            "url": "/uploads/hyperfix_7b287246bd.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T17:23:52.864Z",
+                            "updatedAt": "2023-04-11T17:23:52.864Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 10,
+            "attributes": {
+                "title": "EXTRA SHINE",
+                "price": null,
+                "description": "Vosak za kosu",
+                "text": "Ultra-sjajni vosak za oblikovanje za meku kontrolu. Idealno za definiranje stila sa sjajnim efektom. Ne masti i ne opterećuje kosu.\nAktivni principi\nBILJNI LIPIDI: stvaraju zaštitni film oko kose, hidratizirajući vlakno kose\nMJEŠAVINA STYLING VOSKA: štiti od vanjske vlage, ne masti kosu i lako se uklanja, jednostavno vodom\nFILTER ZA SUNCE: štiti kosu od djelovanja UV zraka\n",
+                "slug": "extra-shine",
+                "createdAt": "2023-04-11T17:25:05.976Z",
+                "updatedAt": "2023-04-11T17:25:18.643Z",
+                "publishedAt": "2023-04-11T17:25:07.390Z",
+                "pricehrk": null,
+                "collectiontype": null,
+                "slug2": null,
+                "image": {
+                    "data": {
+                        "id": 10,
+                        "attributes": {
+                            "name": "extra.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 800,
+                            "height": 800,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_extra.png",
+                                    "hash": "thumbnail_extra_a0dfed32d6",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 15.47,
+                                    "url": "/uploads/thumbnail_extra_a0dfed32d6.png"
+                                },
+                                "small": {
+                                    "name": "small_extra.png",
+                                    "hash": "small_extra_a0dfed32d6",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 500,
+                                    "size": 103.97,
+                                    "url": "/uploads/small_extra_a0dfed32d6.png"
+                                },
+                                "medium": {
+                                    "name": "medium_extra.png",
+                                    "hash": "medium_extra_a0dfed32d6",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 750,
+                                    "size": 212.52,
+                                    "url": "/uploads/medium_extra_a0dfed32d6.png"
+                                }
+                            },
+                            "hash": "extra_a0dfed32d6",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 94.23,
+                            "url": "/uploads/extra_a0dfed32d6.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T17:25:02.833Z",
+                            "updatedAt": "2023-04-11T17:25:02.833Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 11,
+            "attributes": {
+                "title": "MAT MOLDER",
+                "price": 9.2,
+                "description": "Mat za kosu",
+                "text": "Daje oblikovanoj kosi mat izgled i održava kosu vlažnom. Njegova uravnotežena mješavina voštanih komponenti daje stilu prirodnu, srednje čvrstu postojanost. Ne otežava kosu i ne ostavlja tragove.\nAktivni principi\nBILJNI LIPIDI: stvaraju zaštitni film oko kose, hidratizirajući vlakno kose\nMJEŠAVINA STYLING VOSKA: štiti od vanjske vlage, ne masti kosu i lako se uklanja, jednostavno vodom\nFILTER ZA SUNCE: štiti kosu od djelovanja UV zraka\nPakiranje: 100ml\n",
+                "slug": "mat-molder",
+                "createdAt": "2023-04-11T17:26:13.658Z",
+                "updatedAt": "2023-04-11T17:27:31.796Z",
+                "publishedAt": "2023-04-11T17:26:14.817Z",
+                "pricehrk": null,
+                "collectiontype": null,
+                "slug2": null,
+                "image": {
+                    "data": {
+                        "id": 11,
+                        "attributes": {
+                            "name": "matmolder.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 800,
+                            "height": 800,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_matmolder.png",
+                                    "hash": "thumbnail_matmolder_76e9ee8f6d",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 15.93,
+                                    "url": "/uploads/thumbnail_matmolder_76e9ee8f6d.png"
+                                },
+                                "small": {
+                                    "name": "small_matmolder.png",
+                                    "hash": "small_matmolder_76e9ee8f6d",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 500,
+                                    "size": 109.49,
+                                    "url": "/uploads/small_matmolder_76e9ee8f6d.png"
+                                },
+                                "medium": {
+                                    "name": "medium_matmolder.png",
+                                    "hash": "medium_matmolder_76e9ee8f6d",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 750,
+                                    "size": 225.95,
+                                    "url": "/uploads/medium_matmolder_76e9ee8f6d.png"
+                                }
+                            },
+                            "hash": "matmolder_76e9ee8f6d",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 98.74,
+                            "url": "/uploads/matmolder_76e9ee8f6d.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T17:27:29.458Z",
+                            "updatedAt": "2023-04-11T17:27:29.458Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 12,
+            "attributes": {
+                "title": "FREE FOIL",
+                "price": 18.5,
+                "description": "Aditiv za kosu",
+                "text": "Aditiv posebno dizajniran za višetonske tretmane u bojanju i blajhanju bez folije do 4 tona razlike.\nUputsvo za upotrebu:\nDobro protresti prije upotrebe. Dodajte ga u mješavinu boje ili izbjeljivača i dobro pomiješajte kako biste postigli pravu konzistenciju prije nanošenja na svaki pramen.\nZa optimalne rezultate, uvijek slijedite preporučeni omjer miješanja:\nCOLOREVO/REVERSO: oksidacijska emulzija : Free Foil = 10 : 10 : 1\nDECOLORVIT/POWERPLEX:oksidacijska emulzija: Free Foil = 10 : 20 : 2\nDIRECT COLOR : Free Foil = 10 : 2\nPakiranje: 100 ml\n",
+                "slug": "daje-oblikovanoj-kosi-mat-izgled-i-odrzava-kosu-vlaznom-njegova-uravnotezena-mjesavina-vostanih-komponenti-daje-stilu-prirodnu-srednje-cvrstu-postojanost-ne-otezava-kosu-i-ne-ostavlja-tragove-aktivni-principi-biljni-lipidi-stvaraju-zastitni-film-oko-kose-hidratizirajuci-vlakno-kose-mjesavina-styling-voska-stiti-od-vanjske-vlage-ne-masti-kosu-i-lako-se-uklanja-jednostavno-vodom-filter-za-sunce-stiti-kosu-od-djelovanja-uv-zraka-pakiranje-100ml",
+                "createdAt": "2023-04-11T17:29:10.014Z",
+                "updatedAt": "2023-04-11T18:39:35.433Z",
+                "publishedAt": "2023-04-11T17:29:10.974Z",
+                "pricehrk": null,
+                "collectiontype": null,
+                "slug2": null,
+                "image": {
+                    "data": {
+                        "id": 12,
+                        "attributes": {
+                            "name": "freefoil.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 657,
+                            "height": 657,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_freefoil.png",
+                                    "hash": "thumbnail_freefoil_cda9531c26",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 10.96,
+                                    "url": "/uploads/thumbnail_freefoil_cda9531c26.png"
+                                },
+                                "small": {
+                                    "name": "small_freefoil.png",
+                                    "hash": "small_freefoil_cda9531c26",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 500,
+                                    "size": 69.84,
+                                    "url": "/uploads/small_freefoil_cda9531c26.png"
+                                }
+                            },
+                            "hash": "freefoil_cda9531c26",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 28.93,
+                            "url": "/uploads/freefoil_cda9531c26.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T17:29:05.683Z",
+                            "updatedAt": "2023-04-11T17:29:05.683Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 13,
+            "attributes": {
+                "title": "QUICK COOLING",
+                "price": null,
+                "description": "Hlađenje za mašinice",
+                "text": "Immortal Infuse sprej za brzo hlađenje 5 u 1 savršen je način da oštrice noža budu hladne tijekom šišanja. To nije samo izvrsna tekućina za hlađenje oštrica, već i sredstvo za podmazivanje, sredstvo za dezinfekciju, sredstvo za čišćenje oštrica i inhibitor hrđe, pomažući smanjiti trenje prilikom podrezivanja.\nUpute: Raspršite dovoljnu količinu ulja na dio koji treba ohladiti.  Nakon procesa prskanja, možete pustiti mašinicu da radi oko 10 sekundi kako bi se ulje raspršilo po dijelovima rezača. Zatim površinu koju ćete čistiti obrišite mekom vatom.\nPakiranje: 500 ml\nCijena: 9,00 €\n",
+                "slug": "quick-cooling",
+                "createdAt": "2023-04-11T17:32:08.453Z",
+                "updatedAt": "2023-04-11T17:32:09.067Z",
+                "publishedAt": "2023-04-11T17:32:09.066Z",
+                "pricehrk": null,
+                "collectiontype": null,
+                "slug2": null,
+                "image": {
+                    "data": {
+                        "id": 13,
+                        "attributes": {
+                            "name": "quickcool.jpg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 561,
+                            "height": 561,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_quickcool.jpg",
+                                    "hash": "thumbnail_quickcool_87a2ae040c",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 2.37,
+                                    "url": "/uploads/thumbnail_quickcool_87a2ae040c.jpg"
+                                },
+                                "small": {
+                                    "name": "small_quickcool.jpg",
+                                    "hash": "small_quickcool_87a2ae040c",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 500,
+                                    "size": 13.57,
+                                    "url": "/uploads/small_quickcool_87a2ae040c.jpg"
+                                }
+                            },
+                            "hash": "quickcool_87a2ae040c",
+                            "ext": ".jpg",
+                            "mime": "image/jpeg",
+                            "size": 16.74,
+                            "url": "/uploads/quickcool_87a2ae040c.jpg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T17:32:06.271Z",
+                            "updatedAt": "2023-04-11T17:32:06.271Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 14,
+            "attributes": {
+                "title": "VIVO BOJA ZA KOSU",
+                "price": null,
+                "description": "Boja za kosu",
+                "text": "Trajna boja visoke tehnologije za maksimalno prekrivanje sijedih. Intenzivne, briljantne i bogate boje uz potpuno poštovanje strukture kose. Lako se priprema i nanosi zahvaljujući svojoj mekanoj konzistenciji.\nKako koristiti:\nColorvivo se pomiješa s peroksidom 10, 20, 30 ili 40 volumena, u jednakim dijelovima (1:1). Serija Supersvijetle uvijek se mora koristiti s peroksidom u jednakim dijelovima (1:1).\nAktivni sastojci:\nKompleks prirodnih elemenata u tragovima: pomaže uspostaviti pravu strukturnu ravnotežu za dobrobit kose. Kosa je glađa,sjajnija, kompaktnija i hidratizirana.Ulje Abesinike: značajno povećava mekoću kose. Izvrsno njeguje kosu i poboljšava raščešljavanje.\nKolagen: ispunjava osjetljiva područja kutikule zatvarajući je i održavajući hidrataciju dulje.\nPakiranje: 100 ml\n",
+                "slug": "vivo-boja-za-kosu",
+                "createdAt": "2023-04-11T17:34:51.624Z",
+                "updatedAt": "2023-04-11T18:40:04.546Z",
+                "publishedAt": "2023-04-11T17:34:52.340Z",
+                "pricehrk": null,
+                "collectiontype": null,
+                "slug2": null,
+                "image": {
+                    "data": {
+                        "id": 14,
+                        "attributes": {
+                            "name": "vivoboja.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 400,
+                            "height": 554,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_vivoboja.png",
+                                    "hash": "thumbnail_vivoboja_6e79cd1f5b",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 113,
+                                    "height": 156,
+                                    "size": 9.38,
+                                    "url": "/uploads/thumbnail_vivoboja_6e79cd1f5b.png"
+                                },
+                                "small": {
+                                    "name": "small_vivoboja.png",
+                                    "hash": "small_vivoboja_6e79cd1f5b",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 361,
+                                    "height": 500,
+                                    "size": 56.94,
+                                    "url": "/uploads/small_vivoboja_6e79cd1f5b.png"
+                                }
+                            },
+                            "hash": "vivoboja_6e79cd1f5b",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 17.69,
+                            "url": "/uploads/vivoboja_6e79cd1f5b.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T17:34:49.480Z",
+                            "updatedAt": "2023-04-11T17:34:49.480Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 15,
+            "attributes": {
+                "title": "DAILY HIDRATACIJA",
+                "price": null,
+                "description": "Njega kose",
+                "text": "ONCARE Daily prilagođena hidratacija za sve tipove kose.\nIznimno hidratantna linija, savršena za dubinsku njegu, jačanje strukture kose i osiguravanje meke i sjajne kose\nKultna formula uključuje Pequi, Jojobu i Avokado, tri lagana i prirodna ulja koja oslobađaju vašu kosu od suhoće, stanjivanja i pucanja. Preporučen za čestu upotrebu, ovaj ritual hidratacije ne mijenja karakteristike vlasišta.\n",
+                "slug": "daily",
+                "createdAt": "2023-04-11T17:35:59.435Z",
+                "updatedAt": "2023-04-11T18:40:36.623Z",
+                "publishedAt": "2023-04-11T17:36:01.220Z",
+                "pricehrk": null,
+                "collectiontype": null,
+                "slug2": null,
+                "image": {
+                    "data": {
+                        "id": 15,
+                        "attributes": {
+                            "name": "daily.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 813,
+                            "height": 544,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_daily.png",
+                                    "hash": "thumbnail_daily_15aabe1455",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 233,
+                                    "height": 156,
+                                    "size": 50.42,
+                                    "url": "/uploads/thumbnail_daily_15aabe1455.png"
+                                },
+                                "small": {
+                                    "name": "small_daily.png",
+                                    "hash": "small_daily_15aabe1455",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 335,
+                                    "size": 166.89,
+                                    "url": "/uploads/small_daily_15aabe1455.png"
+                                },
+                                "medium": {
+                                    "name": "medium_daily.png",
+                                    "hash": "medium_daily_15aabe1455",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 502,
+                                    "size": 313.83,
+                                    "url": "/uploads/medium_daily_15aabe1455.png"
+                                }
+                            },
+                            "hash": "daily_15aabe1455",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 77.58,
+                            "url": "/uploads/daily_15aabe1455.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T17:35:57.043Z",
+                            "updatedAt": "2023-04-11T17:35:57.043Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 16,
+            "attributes": {
+                "title": "ONCARE REPAIR",
+                "price": null,
+                "description": "Njega kose",
+                "text": "TRENUTNA REGENERACIJA.\nONCARE Repair iskustvo ljepote za zdravu i sjajnu kosu.\nEkstremni učinak obnavljanja oštećene, lomljive i  porozne kose sklone pucanju.\nKombinirano djelovanje Shea maslaca i Zelenog čaja, u kombinaciji s Camelijom, djeluje izravno na strukturu kose, uravnotežujući  hidrolipidni film i kombinirajući obnovu unutarnjeg vlakna s ponovnim lipidnim balansiranjem filma. Instant tretman za regeneraciju vlakana kose u korijenu, zdravu i sjajnu kosu dulje vrijeme.\n",
+                "slug": "oncare-repair",
+                "createdAt": "2023-04-11T17:37:03.533Z",
+                "updatedAt": "2023-04-11T18:40:53.676Z",
+                "publishedAt": "2023-04-11T17:37:04.392Z",
+                "pricehrk": null,
+                "collectiontype": null,
+                "slug2": null,
+                "image": {
+                    "data": {
+                        "id": 16,
+                        "attributes": {
+                            "name": "oncare.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 751,
+                            "height": 502,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_oncare.png",
+                                    "hash": "thumbnail_oncare_383d8a6a50",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 233,
+                                    "height": 156,
+                                    "size": 42.1,
+                                    "url": "/uploads/thumbnail_oncare_383d8a6a50.png"
+                                },
+                                "small": {
+                                    "name": "small_oncare.png",
+                                    "hash": "small_oncare_383d8a6a50",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 334,
+                                    "size": 135.12,
+                                    "url": "/uploads/small_oncare_383d8a6a50.png"
+                                },
+                                "medium": {
+                                    "name": "medium_oncare.png",
+                                    "hash": "medium_oncare_383d8a6a50",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 501,
+                                    "size": 267.89,
+                                    "url": "/uploads/medium_oncare_383d8a6a50.png"
+                                }
+                            },
+                            "hash": "oncare_383d8a6a50",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 61.29,
+                            "url": "/uploads/oncare_383d8a6a50.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2023-04-11T17:37:00.954Z",
+                            "updatedAt": "2023-04-11T17:37:00.954Z"
+                        }
                     }
                 }
             }
         }
-    },
-    "meta": {}
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 12
+        }
+    }
 }

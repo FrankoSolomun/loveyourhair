@@ -1,49 +1,20 @@
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import { fromImageToUrl, API_URL } from '../components/urls'
+import Link from 'next/link'
+import { motion } from 'framer-motion'
+import { twoDecimals } from '@/components/format'
 
-const spanStyle = {
-  padding: '20px',
-  background: '#efefef',
-  color: '#000000'
+
+
+
+export default function Random4({ products }) {
+
+  return (
+
+    <div className='w-full h-full flex flex-col justify-center items-center'>
+    </div>
+
+  );
+
 }
 
-const divStyle = {
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  backgroundSize: 'cover',
-  height: '400px'
-}
-const slideImages = [
-  {
-    url: 'image-1.jpg',
-    caption: 'Slide 1'
-  },
-  {
-    url: 'image-1.jpg',
-    caption: 'Slide 2'
-  },
-  {
-    url: 'image-1.jpg',
-    caption: 'Slide 3'
-  },
-];
-
-const Slideshow = () => {
-    return (
-      <div className="slide-container">
-        <Slide>
-         {slideImages.map((slideImage, index)=> (
-            <div key={index}>
-              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
-                <span style={spanStyle}>{slideImage.caption}</span>
-              </div>
-            </div>
-          ))} 
-        </Slide>
-      </div>
-    )
-}
-
-export default Slideshow;

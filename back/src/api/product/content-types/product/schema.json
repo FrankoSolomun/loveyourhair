@@ -41,6 +41,12 @@
     },
     "pricehrk": {
       "type": "decimal"
+    },
+    "collectiontype": {
+      "type": "string"
+    },
+    "pakiranje": {
+      "type": "text"
     }
   }
 }

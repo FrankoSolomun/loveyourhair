@@ -16,6 +16,7 @@
     "isomorphic-fetch": "^3.0.0",
     "next": "13.2.4",
     "react": "18.2.0",
+    "react-device-detect": "^2.2.3",
     "react-dom": "18.2.0",
     "react-slideshow-image": "^4.2.1",
     "smooth-scrollbar": "^8.8.3",

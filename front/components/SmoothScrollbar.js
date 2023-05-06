@@ -8,7 +8,7 @@ const SmoothScrollbarWrapper = ({ children }) => {
     let scrollbarInstance;
     if (ref.current) {
       scrollbarInstance = SmoothScrollbar.init(ref.current, {
-        damping: 0.05,
+        damping: 0.03,
       });
     }
     return () => {
