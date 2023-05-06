@@ -244,30 +244,30 @@ brendova.</p>
                             />
                           </label>
                           <label className="flex items-center cursor-pointer hover:bg-gray-100 px-3 py-2">
-                            <span className="font-poppins font-semibold text-[20px] w-full">Hair</span>
+                            <span className="font-poppins font-semibold text-[20px] w-full">Njega za kosu</span>
                             <input
                               type="checkbox"
                               className="form-checkbox h-5 w-5 text-gray-600 rounded accent-[#ff0000]"
-                              checked={tempSelectedCategories.includes("hair")}
-                              onChange={() => handleClick("hair")}
+                              checked={tempSelectedCategories.includes("njega")}
+                              onChange={() => handleClick("njega")}
                             />
                           </label>
                           <label className="flex items-center cursor-pointer hover:bg-gray-100 px-3 py-2">
-                            <span className="font-poppins font-semibold text-[20px] w-full">Face</span>
+                            <span className="font-poppins font-semibold text-[20px] w-full">Tehnički proizvodi</span>
                             <input
                               type="checkbox"
                               className="form-checkbox h-5 w-5 text-gray-600 rounded accent-[#ff0000]"
-                              checked={tempSelectedCategories.includes("face")}
-                              onChange={() => handleClick("face")}
+                              checked={tempSelectedCategories.includes("tehnicki")}
+                              onChange={() => handleClick("tehnicki")}
                             />
                           </label>
                           <label className="flex items-center cursor-pointer hover:bg-gray-100 px-3 py-2">
-                            <span className="font-poppins font-semibold text-[20px] w-full">Body</span>
+                            <span className="font-poppins font-semibold text-[20px] w-full">Styling za kosu</span>
                             <input
                               type="checkbox"
                               className="form-checkbox h-5 w-5 text-gray-600 rounded accent-[#ff0000]"
-                              checked={tempSelectedCategories.includes("body")}
-                              onChange={() => handleClick("body")}
+                              checked={tempSelectedCategories.includes("styling")}
+                              onChange={() => handleClick("styling")}
                             />
                           </label>
                         </div>

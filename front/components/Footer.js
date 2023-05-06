@@ -1,7 +1,7 @@
 export default () => (
 
-    <div className='flex justify-center z-[23432423] bg-black w-full h-fill'>
-        <div className='max-w-[1920px] w-full flex justify-between py-[20px] xl:py-[30px]'>
+    <div className='flex justify-center z-[23432423] bg-[#1f1e1f] w-full h-fill'>
+        <div className='max-w-[1920px] w-full flex justify-between py-[20px] xl:py-[30px] items-center'>
             <div className="text-white font-poppins text-[14px] lg:text-[16px] mx-5">©LOVE YOUR HAIR - 2023</div>
             <a className="flex items-center justify-center" href="https://www.facebook.com/Selectivezagreb/">
                 <div className="w-[25px] fill-white">
