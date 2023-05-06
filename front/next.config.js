@@ -7,6 +7,11 @@ const nextConfig = {
       damping: 0.02,
     },
   },
+  images: {
+    domains: [
+      "api.loveyourhair.hr",
+    ],
+  },
 }
 
 module.exports = nextConfig
