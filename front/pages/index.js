@@ -104,7 +104,7 @@ export default function Home({ products }) {
             <div className='lg:ml-[50px] 3xl:ml-[80px] mt-[70px] md:mt-[100px] max-w-[800px]  lg:mr-[30px] 3xl:mr-[45px] 4xl:mr-[75px] mx-[20px] md:mx-[50px] lg:mx-0'>
               <img src='/selective.png' className='w-[350px] md:w-[450px] 3xl:max-w-[500px] 4xl:w-[550px] h-[50px] md:h-[70px] 3xl:h-[80px] mb-[30px]'/>
               <div className='w-full h-px bg-gray-300' />
-              <p className='text-black text-[18px] 3xl:text-[22px] mt-[15px]'>Selective Professional je ekskluzivni talijanski brend, ponosno
+              <p className='text-gray-600 text-[18px] 3xl:text-[22px] mt-[15px]'>Selective Professional je ekskluzivni talijanski brend, ponosno
 proizvedan 100% u Italiji, s više od 30 godina iskustva.
 Zastupljen je u 70 zemlja diljem svijeta .
 Proizvodi su rezultat izražene kreativnosti ,originalnosti i
@@ -112,7 +112,7 @@ strasti za ljepotu kose.
 Uvjerite se zašto je jedan od najviše hvaljenih talijanskih
 brendova.</p>
               <div className='flex flex-col w-full justify-center items-center mt-[70px] md:mt-[70px] space-y-5'>
-                <button className='bg-black text-white text-[23px] font-poppins px-7 py-[10px] border-2 border-white hover:bg-white hover:text-black hover:border-2 hover:border-black transition duration-[600ms]' onClick={handleClick1}>Naši proizvodi</button>
+                <button className='bg-[#1f1e1f] text-white text-[23px] font-poppins px-7 py-[10px] border-2 border-white hover:bg-white hover:text-[#1f1e1f] hover:border-2 hover:border-[#1f1e1f] transition duration-[600ms]' onClick={handleClick1}>Naši proizvodi</button>
                 {/* <button className='bg-black text-white text-[23px] font-poppins px-7 py-[10px] border-2 border-white hover:bg-white hover:text-black hover:border-2 hover:border-black transition duration-[600ms]'>Kontaktirajte nas</button> */}
               </div>
             </div>
@@ -137,36 +137,36 @@ brendova.</p>
                 />
               </label>
               <label className="flex items-center cursor-pointer hover:bg-gray-100 px-3 py-2">
-                <span className="font-poppins font-semibold text-[20px] w-[200px]">Hair</span>
+                <span className="font-poppins font-semibold text-[20px] w-[200px]">Njega za kosu</span>
                 <input
                   type="checkbox"
                   className="form-checkbox h-5 w-5 text-gray-600 rounded accent-[#ff0000]"
-                  checked={tempSelectedCategories.includes("hair")}
-                  onChange={() => handleClick("hair")}
+                  checked={tempSelectedCategories.includes("njega")}
+                  onChange={() => handleClick("njega")}
                 />
               </label>
               <label className="flex items-center cursor-pointer hover:bg-gray-100 px-3 py-2">
-                <span className="font-poppins font-semibold text-[20px] w-[200px]">Face</span>
+                <span className="font-poppins font-semibold text-[20px] w-[200px]">Tehnički proizvodi</span>
                 <input
                   type="checkbox"
                   className="form-checkbox h-5 w-5 text-gray-600 rounded accent-[#ff0000]"
-                  checked={tempSelectedCategories.includes("face")}
-                  onChange={() => handleClick("face")}
+                  checked={tempSelectedCategories.includes("tehnicki")}
+                  onChange={() => handleClick("tehnicki")}
                 />
               </label>
               <label className="flex items-center cursor-pointer hover:bg-gray-100 px-3 py-2">
-                <span className="font-poppins font-semibold text-[20px] w-[200px]">Body</span>
+                <span className="font-poppins font-semibold text-[20px] w-[200px]">Styling za kosu</span>
                 <input
                   type="checkbox"
                   className="form-checkbox h-5 w-5 text-gray-600 rounded accent-[#ff0000]"
-                  checked={tempSelectedCategories.includes("body")}
-                  onChange={() => handleClick("body")}
+                  checked={tempSelectedCategories.includes("styling")}
+                  onChange={() => handleClick("styling")}
                 />
               </label>
             </div>
             <div className='w-full h-px bg-gray-300' />
 
-            <div className='w-full flex flex-col'>
+            <div className='w-full flex flex-col space-y-2'>
               <button
                 className={`py-2 px-4 font-poppins ${tempSelectedCategories.length === 0 ? 'bg-gray-200' : 'bg-[#ff0000] text-white'
                   }`}

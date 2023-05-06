@@ -48,7 +48,7 @@ const Menu = () => {
   }, [clicked]);
   return (
     <div className="fixed top-0 w-full z-[100] ">
-      <div className="h-16 w-full bg-black flex items-center justify-between">
+      <div className="h-16 w-full bg-[#1f1e1f] flex items-center justify-between">
         <Link href={"/"}>
           <img src="/logolyh.svg" className="w-[200px] xl:w-[320px] h-full ml-5 xl:ml-8" />
         </Link>
