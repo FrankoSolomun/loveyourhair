@@ -53,7 +53,7 @@ const Menu = () => {
           <img src="/logolyh.svg" className="w-[200px] xl:w-[320px] h-full ml-5 xl:ml-8" />
         </Link>
         <div className="mr-16 space-x-9 xl:block hidden">
-          <a href="/" className="text-white font-poppins text-[22px] cursor-pointer">Početna</a>
+          <a href="/" className="text-white font-poppins text-[22px] cursor-pointer">Proizvodi</a>
           <a href="/kontakt" className="text-white font-poppins text-[22px] cursor-pointer">Kontakt</a>
           <a href="/o-nama" className="text-white font-poppins text-[22px] cursor-pointer">O nama</a>
         </div>
@@ -83,7 +83,7 @@ const Menu = () => {
               </svg>
             </div>
             <div className="flex flex-col space-y-10">
-              <button className="bg-gray-200 px-6 py-3 rounded-full"><a href="/" className="text-[32px] font-poppins font-semibold text-[#1f1e1f]">Početna</a></button>
+              <button className="bg-gray-200 px-6 py-3 rounded-full"><a href="/" className="text-[32px] font-poppins font-semibold text-[#1f1e1f]">Proizvodi</a></button>
               <button className="bg-gray-200 px-6 py-3 rounded-full"><a href="/kontakt" className="text-[32px] font-poppins font-semibold text-[#1f1e1f]">Kontakt</a></button>
               <button className="bg-gray-200 px-6 py-3 rounded-full"><a href="/o-nama" className="text-[32px] font-poppins font-semibold text-[#1f1e1f]">O nama</a></button>
             </div>
