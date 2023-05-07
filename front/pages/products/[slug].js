@@ -21,6 +21,7 @@ const Product = ({products}) => {
                       </div>
                       <p className='font-poppins text-[16px] lg:text-[18px] xl:text-[20px] text-gray-600 mt-[15px] mb-[20px] 3xl:mb-[30px]'>{products.attributes.description}</p>
                       <p className='font-poppins text-[17px] lg:text-[19px] xl:text-[21px] 3xl:text-[23px] 5xl:text-[25px] text-black mb-[60px]'>{products.attributes.text}</p>
+                      <p className='font-poppins text-[17px] lg:text-[19px] xl:text-[21px] 3xl:text-[23px] 5xl:text-[25px] text-black mb-[60px]'>Pakiranje: {products.attributes.pakiranje}</p>
                       <div className='flex space-x-3 items-center'>
                           <p className='text-[31px] font-medium leading-[1]'>{twoDecimals(products.attributes.price)} €</p>
                           <p className='text-[25px] text-gray-400 leading-[1]'>{twoDecimals(products.attributes.pricehrk)} KN</p>
